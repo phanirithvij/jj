@@ -42,6 +42,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * Added a new conditional configuration `--when.platforms` to include
   settings only on certain platforms.
 
+* `jj bookmark create/set/move` use the working copy as a default again and
+  no longer require an explicit revision argument. This walks back a
+  deprecation from `jj 0.26`, as the community feedback was mostly negative.
+
 ### Fixed bugs
 
 ## [0.33.0] - 2025-09-03
